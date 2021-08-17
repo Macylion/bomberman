@@ -10,7 +10,7 @@ export default class WebServer {
     app.use(express.static("public"));
 
     app.listen(port, () => {
-      console.log(`Serving running at localhost:${port}`);
+      console.log(`Server running at localhost:${port}`);
     });
   }
 }
